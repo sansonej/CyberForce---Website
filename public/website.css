@@ -1,0 +1,197 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgb(187, 165, 61);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /* Change the color on hover */
+}
+
+.rightNav {
+    text-align: right;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust this to change the banner height */
+    overflow: hidden;
+}
+
+/* Banner Image */
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Text over the image */
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better text visibility */
+    text-align: center;
+}
+
+.logo-banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust this to change the height of the banner */
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center; /* Vertically centers the image */
+}
+
+/* Logo Banner Image */
+.logo-banner-image {
+    margin-top: 150px;
+    width: auto;
+    height: 100%;
+    object-fit: contain; /* Ensures the logo keeps its aspect ratio */
+}
+
+/* Text over the logo */
+.banner-text {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for text visibility */
+    text-align: center;
+}
+
+.turbine-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Each Turbine Item */
+.turbine-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+/* Turbine Image */
+.turbine-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Turbine Data (text) */
+.turbine-data {
+    margin-top: 1rem;
+}
+
+.turbine-data h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.turbine-data p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+/* end of turbine Data (text) */
+
+/* contact form */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* end of contact form */
